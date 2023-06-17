@@ -13,6 +13,12 @@
         android:theme="@style/Theme.MiPrimerActivity"
         tools:targetApi="31">
         <activity
+            android:name=".ActivityCounter"
+            android:exported="false" />
+        <activity
+            android:name=".MySecondActivity"
+            android:exported="false" />
+        <activity
             android:name=".MyFirstActivity"
             android:exported="false" />
     </application>
